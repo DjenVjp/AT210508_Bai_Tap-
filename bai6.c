@@ -6,7 +6,7 @@ int main(){
     double det1 = c*e - f*b, det2 = a*f - c*d, det= a*e - b*d;
     if(det == 0 ){
         if(det2 == 0){
-            if((a == 0 && b == 0 && c == 0&& f != 0) || (d == 0 && e == 0 && f == 0 && c != 0))
+            if((a == 0 && b == 0 && c == 0 && d==0 && e==0 && f!=0)||(d == 0 && e == 0 && f == 0 && a==0 && b ==0 &&c != 0))
                 printf("vo nghiem");
             else if((a == 0 && b == 0 && c == 0) || (d == 0 && e == 0 && f == 0 ))
                 printf("vo so nghiem");
