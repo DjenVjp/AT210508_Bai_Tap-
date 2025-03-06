@@ -8,9 +8,7 @@ int main(){
         if(det2 == 0){
             if((a == 0 && b == 0 && c == 0 && d==0 && e==0 && f!=0)||(d == 0 && e == 0 && f == 0 && a==0 && b ==0 &&c != 0))
                 printf("vo nghiem");
-            else if((a == 0 && b == 0 && c == 0) || (d == 0 && e == 0 && f == 0 ))
-                printf("vo so nghiem");
-            else if(a/d == b/e && b/e == e/f)
+            else if((a*e == b*d)&&(a*f == c*d)&&(b*f == c*e))
                 printf("vo so nghiem");
             else 
                 printf("vo nghiem");
