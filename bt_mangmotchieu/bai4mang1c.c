@@ -29,5 +29,5 @@ int main(){
             printf("%d ", i+1);
         }
     }
-
+    return 0;
 }

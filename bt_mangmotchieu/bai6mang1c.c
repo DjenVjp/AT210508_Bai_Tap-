@@ -13,5 +13,5 @@ int main(){
     printf("phan tu trong mang la \n");
     for(int i = 0; i < n; i++)
         printf("%.4f ", a[i]);
-        return 0;
+    return 0;
 }

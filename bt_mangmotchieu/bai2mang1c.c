@@ -8,4 +8,5 @@ int main()
     printf("cac phan tu trong mang la ");
     for (int i = 9; i >= 0; i--)
         printf("%d ", a[i]);
+    return 0;
 }
